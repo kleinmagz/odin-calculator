@@ -1,0 +1,91 @@
+* {
+   font-size: 1.5rem;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#calculator {
+   background-color: gray;
+   width: 500px;
+   height: 500px;
+   border-radius: 10px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+#display {
+   width: 400px;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: black;
+   color: white;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   text-align: right;
+}
+
+#display:hover {
+   outline: none;
+}
+
+.buttons {
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex-direction: row;
+}
+
+#digits {
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 60%;
+}
+
+#digits button {
+   width: 80px;
+   height: 80px;
+}
+
+#operators {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   width: 20%;
+}
+
+#operators button {
+   width: 80px;
+   aspect-ratio: 1 / 1;
+}
+
+.special {
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+   gap: 10px;
+}
+
+.special button {
+   width: 80px;
+   aspect-ratio: 1 / 1;
+}
+
+#calculate {
+   background-color: #ffa500;
+   height: 100%;
+}
+
+#calculate:hover {
+   background-color: #cb8400;
+}
